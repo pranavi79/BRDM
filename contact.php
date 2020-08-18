@@ -212,11 +212,13 @@
 
 
 
-  <footer class="ftco-footer ftco-bg-dark ftco-section">
-    <div class="container">
+
+
+  <footer class="ftco-footer ftco-bg-dark ftco-section" >
+    <div class="container" >
       <div class="row mb-5">
         <div class="col-md-6 col-lg-3">
-          <div class="ftco-footer-widget mb-5">
+          <div class="ftco-footer-widget mb-2">
             <h2 class="ftco-heading-2">Have a Questions?</h2>
             <div class="block-23 mb-3">
               <ul>
