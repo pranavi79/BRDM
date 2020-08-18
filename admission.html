@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admission</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/4fa68a2fcb.js" crossorigin="anonymous"></script>
+    <link href="css/admission.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+    <link href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+            $('a[data-toggle="list"]').on('show.bs.list', function(e) {
+                localStorage.setItem('activeTab', $(e.target).attr('href'));
+            });
+            var activeTab = localStorage.getItem('activeTab');
+            if(activeTab){
+                console.log($('#myTab a[href="' + activeTab + '"]'));
+                $('#myTab a[href="' + activeTab + '"]').tab('show');
+            }
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <div class="container-fluid">
+            <div class="row padding">
+                <br>
+                    <div id="list" class="col-sm-12 col-md-3">
+                        <div style="background: #383838; color: white; border-radius: 2vh;">
+                            <h2 class="pl-2">Admission</h2>
+                        </div>
+                        <ul style="list-style-type:none;" class="list-group list-group-flush pl-2" id="myTab">
+                            <li style="border-bottom: 1px solid black;"><a data-toggle="list" style="text-decoration: none; color: black;" href="#sectionA">Admission Process</a></li>
+                            <li style="border-bottom: 1px solid black;"><a data-toggle="list" style="text-decoration: none; color: black;" href="#sectionB">Admission Schedule</a></li>
+                            <li style="border-bottom: 1px solid black;"><a data-toggle="list" style="text-decoration: none; color: black;" href="#sectionC"> Fees Structure & Rules of 2020 & 2021</a></li>
+                            <li style="border-bottom: 1px solid black;"><a data-toggle="list" style="text-decoration: none; color: black;" href="#sectionD">Documents Required</a></li>
+                            <li style="border-bottom: 1px solid black;"><a data-toggle="list" style="text-decoration: none; color: black;" href="#sectionE">Removal & Withdrawal</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content col-sm-12 col-md-9">
+                        <div id="sectionA" class="tab-pane fade in active">
+                                <h1>Admission Process</h1>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                    when an unknown printer took a galley of type and scrambled it to make a type 
+                                    specimen book. It has survived not only five centuries, but also the leap into 
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    and more recently with desktop publishing software like Aldus PageMaker including 
+                                    versions of Lorem Ipsum.
+                            </p>
+                            <br>
+                            <h5>AGE FOR ADMISSION (Age as on April 01 of the year of admission)</h5>
+                            <div class="container-fluid">
+                                <div class="row padding">
+                                    <div class="col-3">
+                                        <p>NURSERY</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>2 YEARS and 6 MONTHS</p>
+                                    </div>
+                                </div>
+                                <div class="row padding">
+                                    <div class="col-3">
+                                        <p>LKG</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>3 YEARS and 6 MONTHS</p>
+                                    </div>
+                                </div>
+                                <div class="row padding">
+                                    <div class="col-3">
+                                        <p>UKG</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>4 YEARS and 6 MONTHS</p>
+                                    </div>
+                                </div>
+                                <div class="row padding">
+                                    <div class="col-3">
+                                        <p>CLASS I</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>5 YEARS and 6 MONTHS</p>
+                                    </div>
+                                </div>
+                                <p>FOR SUBSEQUENT CLASSES ADD ONE YEAR</p>
+                            </div>
+                        </div>
+                        <div id="sectionB" class="tab-pane fade">
+                            <h1>Admission Schedule</h1>
+                            <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, 
+                                ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu 
+                                viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum 
+                                id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis 
+                                leo at faucibus adipiscing.</p>
+                        </div>
+                        <div id="sectionC" class="tab-pane fade">
+                            <h1>Fees Structure & Rules of 2020 & 2021</h1>
+                            <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare 
+                                id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta
+                                 ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit 
+                                 sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                        </div>
+                        <div id="sectionD" class="tab-pane fade">
+                            <h1>Documents Required</h1>
+                            <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id 
+                                gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut.
+                                 Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem.
+                                  Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                        </div>
+                        <div id="sectionE" class="tab-pane fade">
+                            <h1>Removal & Withdrawal</h1>
+                            <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id 
+                                gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut.
+                                 Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. 
+                                 Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
