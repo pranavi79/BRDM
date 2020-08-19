@@ -342,67 +342,73 @@
 			<div class="container-fluid px-4">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Our</span> Courses</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <h2 class="mb-4"><span>Notification</span></h2>
           </div>
         </div>	
-				<div class="row">
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-1.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-2.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-3.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-4.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Apply now</a></p>
-						</div>
-					</div>
+		
+			<div class="row">
+			  <div class="col-sm-4">
+				<div class="card h-100">
+				  <div class="card-body">
+					<h5 class="card-title">Syllabus diduction for this acadmic year 2020-21.</h5>
+					<p class="card-text">As per guidelines of government 30% syllabus is diducted for this acadmic year 2020-21. </p>
+					<a href="https://drive.google.com/drive/folders/1Ll1Onw6GupJ8WnXmG9q4rEsmbGXB5S_k?usp=sharing" class="btn btn-primary">Click Here</a>
+				  </div>
 				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="card h-100">
+				  <div class="card-body">
+					<h5 class="card-title">10TH Class Merit List</h5>
+					<p class="card-text">Check 10TH Class Merit List.</p>
+					<a href="result2020.jpg" class="btn btn-primary">Click Here</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="card h-100">
+				  <div class="card-body">
+					<h5 class="card-title">RESULT : 2019-20</h5>
+					<p class="card-text">Check result of 2019-2020.</p>
+					<a href="http://www.brdmschool.in/RESULT.pdf" class="btn btn-primary">Click Here</a>
+				  </div>
+				</div>
+			  </div>
 			</div>
+			<br>
+			<div class="row">
+			  <div class="col-sm-4">
+				<div class="card h-100">
+				  <div class="card-body">
+					<h5 class="card-title">Student fees payment.</h5>
+					<p class="card-text">Click to pay fee.</p>
+					<a href="https://www.instamojo.com/@brdmschool" class="btn btn-primary">Click Here</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="card h-100">
+				  <div class="card-body">
+					<h5 class="card-title">Admisssion 2020-21.</h5>
+					<p class="card-text">Admisssion open for session 2020-21.</p>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSepZtCOrRYUnx0EgsmKa8tQ4d5MU9IViN6OwylIUU45G2P22g/viewform?usp=sf_link" class="btn btn-primary">Click Here</a>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-sm-4">
+				<div class="card h-100">
+				  <div class="card-body">
+					<h5 class="card-title">RECRUITMENT FORM</h5>
+					<p class="card-text">Fill Recruitment form.</p>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ9MouqMUqyds-dTBtrE1oEKRprQWSy8v2aDIJZH_KUvjW3Q/viewform?usp=sf_link" class="btn btn-primary">Click Here</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
 		</section>
-<section class="ftco-section testimony-section testimony-section bg-primary">
+
+	<section class="ftco-section testimony-section testimony-section bg-primary">
       <div class="container">
        
         <div class="row ftco-animate">
@@ -512,7 +518,7 @@
     				<div class="py-md-5">
 		          <div class="heading-section heading-section-white ftco-animate mb-5">
 		            <h2 class="mb-4">Request A Quote</h2>
-		            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		            <p>BRDM School does understand its onus to transform the nascent into the enlightened who can be of an efficient service to the nation and the community at large. In the present times of regional and communal upheavals, it is essential that children at an impressionable age strive to attain academic excellence and at the same time, learn to transcend all unnatural barriers for a peaceful existence.</p>
 		          </div>
 		          <form action="#" class="appointment-form ftco-animate">
 		    				<div class="d-md-flex">
@@ -564,12 +570,12 @@
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-8 text-center heading-section ftco-animate">
             <h2 class="mb-4"><span>Recent</span> Blog</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+            <p>The school takes due care while weaving the fabric of scholastic & co-scholastic activities so as to create an ambience wherein pupils not only appreciate such subtleties but also practise them in real life situations.</p>
           </div>
         </div>
 				<div class="row">
           <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
+            <div class="blog-entry h-100">
               <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/p1.jpg');">
 								<div class="meta-date text-center p-2">
                   <span class="day">15</span>
@@ -591,7 +597,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
+            <div class="blog-entry h-100">
               <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/image_2.jpg');">
 								<div class="meta-date text-center p-2">
                   <span class="day">14</span>
@@ -613,7 +619,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
+            <div class="blog-entry h-100">
               <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url('images/p3.jpg');">
 								<div class="meta-date text-center p-2">
                   <span class="day">31</span>
